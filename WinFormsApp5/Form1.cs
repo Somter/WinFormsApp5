@@ -92,9 +92,7 @@ namespace WinFormsApp5
 
         private Button GetStrategicMove()
         {
-            var playerMoves = buttons.Cast<Button>()
-                                     .Where(b => b.Tag as string == "X")
-                                     .ToList();
+            var playerMoves = buttons.Cast<Button>().Where(b => b.Tag as string == "X").ToList();
 
             foreach (var move in playerMoves)
             {
