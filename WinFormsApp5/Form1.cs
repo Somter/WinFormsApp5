@@ -10,8 +10,9 @@ namespace WinFormsApp5
          Button[,] buttons = new Button[3, 3];
          bool isXTurn = true; 
          bool gameActive = false;
-         string imagePathX = @"C:\Users\alecs\source\repos\ConsoleApp5\ConsoleApp5\photo_5345997896035724545_m.jpg"; 
-         string imagePathO = @"C:\Users\alecs\source\repos\ConsoleApp5\ConsoleApp5\photo_5345997896035724544_m.jpg"; 
+         string imagePathX = @"Images2\photo_5345997896035724545_m.jpg";
+         string imagePathO = @"Images2\photo_5345997896035724544_m.jpg";
+
          Random random = new Random(); 
          Button lastComputerMove = null;
 
